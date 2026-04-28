@@ -15,6 +15,7 @@ public class Main {
             System.out.println("ты еще не достиг совершеннолетия, нужно немного подождать");
         }
 
+
         int ageq = 19;
         if (ageq >= 18){
             System.out.println("ты совершеннолетний");
