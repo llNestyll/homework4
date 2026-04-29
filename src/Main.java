@@ -10,25 +10,27 @@ public class Main {
         if (age >= 18) {
             System.out.println("ты совершеннолетний");
         }
-        if (age < 18) {
-            System.out.println("ты еще не достиг совершеннолетия, нужно немного подождать");
+        else {
+            System.out.println("ты еще не достиг совершеннолетия, нужно немного дождпоать");
         }
-
 
         int ageq = 19;
         if (ageq >= 18) {
             System.out.println("ты совершеннолетний");
         }
-        if (ageq < 18) {
+        else {
             System.out.println("ты еще не достиг совершеннолетия, нужно немного подождать");
         }
+
+
+
 
 
         int temp = 3;
         if (temp >= 5) {
             System.out.println("На улице " + temp + " градусов, сегодня тепло, можно идти без шапки");
         }
-        if (temp < 5) {
+        else {
             System.out.println("На улице " + temp + " градусов, на улице холодно, нужно надеть шапку");
         }
 
@@ -36,16 +38,22 @@ public class Main {
         if (temper >= 5) {
             System.out.println("На улице " + temper + " градусов, сегодня тепло, можно идти без шапки");
         }
-        if (temper < 5) {
+        else {
             System.out.println("На улице " + temper + " градусов,на улице холодно, нужно надеть шапку");
         }
+
+
+
+
+
+
 
 
         int speed = 73;
         if (speed >= 60) {
             System.out.println("Если скорость " + speed + " то придется заплатить штраф");
         }
-        if (speed < 60) {
+        else {
             System.out.println("Если скорость " + speed + " то можно ездить спокойно");
         }
 
@@ -54,9 +62,14 @@ public class Main {
         if (speeds >= 60) {
             System.out.println("Если скорость " + speeds + " то придется заплатить штраф");
         }
-        if (speeds < 60) {
+        else {
             System.out.println("Если скорость " + speeds + " то можно ездить спокойно");
         }
+
+
+
+
+
 
 
         int old = 4;
@@ -118,6 +131,12 @@ public class Main {
         }
 
 
+
+
+
+
+
+
         int child = 3;
         if (child < 5) {
             System.out.println("Если возраст ребенка равен " + child + ", то ему нельзя кататься на аттракционе");
@@ -151,6 +170,12 @@ public class Main {
         if (childq >= 14) {
             System.out.println("Если возраст ребенка равен " + childq + ", то ему можно кататься на аттракционе без сопровождения взрослого");
         }
+
+
+
+
+
+
 
 
         int seat = 37;
@@ -190,25 +215,48 @@ public class Main {
         }
 
 
+
+
+
         int one = 1;
         int two = 2;
         int three = 3;
 
-        if (one > two && one > three) {
-            System.out.println("one больше two и three");
-        } else {
-            System.out.println("one не больше two и three");
+        if (one >= two && one >= three) {
+            System.out.println("one самое большое число");
+        } else if (two >= one && two >= three) {
+            System.out.println("two самое большое число");
         }
-        if (two > one && one < three) {
-            System.out.println("one между two и three");
-        } else {
-            System.out.println("one не находится между two и three");
+        else {
+            System.out.println("three самое большое число");
         }
-        if (three > two && one < three) {
-            System.out.println("three больше всех");
-        } else {
-            System.out.println("three не больше two и one");}
 
+
+        int oner = 5;
+        int twor = 2;
+        int threer = 3;
+
+        if (oner >= twor && oner >= threer) {
+            System.out.println("one самое большое число");
+        } else if (twor >= oner && twor >= threer) {
+            System.out.println("two самое большое число");
+        }
+        else {
+            System.out.println("three самое большое число");
+        }
+
+        int oneq = 4;
+        int twoq = 7;
+        int threeq = 3;
+
+        if (oneq >= twoq && oneq >= threeq) {
+            System.out.println("one самое большое число");
+        } else if (twoq >= oneq && twoq >= threeq) {
+            System.out.println("two самое большое число");
+        }
+        else {
+            System.out.println("three самое большое число");
+        }
 
     }
 }
